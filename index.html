@@ -87,7 +87,7 @@
       </div>
       <div class="html">
         <div class="tag-css">
-          <p>HTML</p>
+          <p>CSS</p>
         </div>
         <div class="progressbar">
           <div class="bar-css"></div>
@@ -95,7 +95,7 @@
       </div>
       <div class="html">
         <div class="tag-php">
-          <p>HTML</p>
+          <p>PHP</p>
         </div>
         <div class="progressbar">
           <div class="bar-php"></div>
@@ -103,7 +103,7 @@
       </div>
       <div class="html">
         <div class="tag-javascript">
-          <p>HTML</p>
+          <p>JavaScript</p>
         </div>
         <div class="progressbar">
           <div class="bar-javascript"></div>
@@ -114,31 +114,28 @@
     <div class="container work" id="work">
       <h1>Work</h1>
       <div class="work-category">
-        <button id="designing" class="active">Web Designing</button>
-        <button id="designing">Web Animation</button>
-        <button id="project">PHP Projects</button>
+        <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+        <button id="animation" onclick="showRequiredCategory(this)">Web Animation</button>
+        <button id="project" onclick="showRequiredCategory(this)">PHP Projects</button>
       </div>
       <div class="category-designing showCategory">
         <a href="#"><img src="img/1.png" alt=""></a>
         <a href="#"><img src="img/2.png" alt=""></a>
         <a href="#"><img src="img/3.png" alt=""></a>
-        <a href="#"><img src="img/1.png" alt=""></a>
         <a href="#"><img src="img/2.png" alt=""></a>
         <a href="#"><img src="img/3.png" alt=""></a>
       </div>
-      <div class="category-designing hidedCategory">
+      <div class="category-animation hideCategory">
         <a href="#"><img src="img/1.png" alt=""></a>
         <a href="#"><img src="img/2.png" alt=""></a>
         <a href="#"><img src="img/3.png" alt=""></a>
-        <a href="#"><img src="img/1.png" alt=""></a>
         <a href="#"><img src="img/2.png" alt=""></a>
         <a href="#"><img src="img/3.png" alt=""></a>
       </div>
-      <div class="category-designing hideCategory">
+      <div class="category-project hideCategory">
         <a href="#"><img src="img/1.png" alt=""></a>
         <a href="#"><img src="img/2.png" alt=""></a>
         <a href="#"><img src="img/3.png" alt=""></a>
-        <a href="#"><img src="img/1.png" alt=""></a>
         <a href="#"><img src="img/2.png" alt=""></a>
         <a href="#"><img src="img/3.png" alt=""></a>
       </div>
@@ -163,6 +160,6 @@
     <script src="js/TimelineLite.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
     <script src="js/CSSPlugin.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
